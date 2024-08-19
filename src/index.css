@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: green;
+  z-index: 1;
+}
+
+.acme-regular {
+  font-family: "Acme", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+th{
+  background-color: black;
+  color: white;
+}
+
+td, th {
+  border: 2px solid black;
+  text-align: left;
+  padding: 8px;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  background-color: white;
+  width: 95%;
+  padding: 10;
+}
+
+.barlogo{
+  margin: 0;
+}
+
+.nflogo{
+  mix-blend-mode: normal;
+  z-index: 2;
+
+}
+
+.maincontent{
+  margin-top: 3%;
+}
+
+.h1Fs{
+  color: white;
+}
+
+.pfs{
+  color: white;
+  font-size: 14px;
+}
+
+.logo--text{
+  margin: 0;
+  margin-right: auto;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  z-index: 1;
+  background-color: blue;
+}
+
+.pageHeaders{
+  color: white;
+}
+
+.descriptionPass{
+  margin-right: 30px;
+  margin-left: 20px;
+  color: white;
+}
+
+.divDescription{
+  margin-top: 30px;
+  display: flex;
+  width: 50%;
+  justify-content: center;
+}
